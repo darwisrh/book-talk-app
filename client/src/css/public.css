@@ -1,0 +1,129 @@
+.container {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.title-container {
+   text-align: center;
+}
+
+.title {
+   color: #fffffe;
+   font-size: 50px;
+   font-weight: 700;
+}
+
+.des-title {
+   color: #fffffe;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+/* NavBar */
+nav {
+   background-color: #b8c1ec;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   width: 100%;
+}
+
+nav .nav-logo {
+   display: flex;
+   margin: 0 20px;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+nav .create {
+   background-color: #eebbc3;
+   border: 2px solid #121629;
+   width: 125px;
+   height: 40px;
+}
+
+.nav-button-cont {
+   display: flex;
+   gap: 15px;
+   margin: 0 20px;
+}
+
+/* Form */
+.form-container {
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-container .input {
+   border: 2px solid #121629;
+   color: #232946;
+   background-color: #b8c1ec;
+}
+
+.form .input::placeholder {
+   color: #232946;
+}
+
+.form-container .input:hover {
+   background-color: #eebbc3;
+   border: 2px solid #121629;
+}
+
+.form .input:hover::placeholder {
+   color: black;
+}
+
+.form .input:focus {
+   border: 3px solid #121629;
+}
+
+.form-container .form {
+   width: 700px;
+}
+
+.form .warning {
+   color: red;
+}
+
+.form .no-warning {
+   color: #fffffe;
+}
+
+.form .form-label {
+   font-size: 20px;
+   color: #fffffe;
+}
+
+.button {
+   display: flex;
+   justify-content: end;
+   margin-top: 20px;
+}
+
+.button .submit-button {
+   width: 120px;
+   height: 40px;
+   border: 2px solid #121629;
+   background: none;
+   color: white;
+}
+
+.button .submit-button:hover {
+   background-color: #eebbc3;
+}
+
+/* Book List */
+.tab-container {
+   height: 100vh;
+   padding: 70px 30px 0;
+}
+
+.tab-container .tab {
+   color: white;
+}
